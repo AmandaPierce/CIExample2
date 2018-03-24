@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..BBBB'
+                sh 'mvn -f Tutorial3TestSuites/testData/pom.xml clean test'
             }
         }
         stage('Deploy') {
