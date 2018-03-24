@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..AAA'
+                sh 'mvn -f Tutorial3/pom.xml clean install'
             }
         }
         stage('Test') {
