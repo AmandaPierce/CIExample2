@@ -1,0 +1,10 @@
+CodeCoverageInformationContainer.class
+ValidFile.class
+Agent$1.class
+CodeCoverageData.class
+ClassVisitorModifier.class
+Agent.class
+MethodInformation.class
+TestListener.class
+MethodVisitorModifier.class
+ClassTransformer.class
