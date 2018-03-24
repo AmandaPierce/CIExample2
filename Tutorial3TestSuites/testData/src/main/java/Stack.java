@@ -1,4 +1,4 @@
-
+import java.io.*;
 /*
  * Stack Requirements
   	pop(emptyStack) = emptyStack
